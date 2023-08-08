@@ -1,0 +1,11 @@
+{
+    "habits": [
+      { "id": 1, "name": "Read for 30 minutes", "frequency": "daily", "startDate": "2023-08-06", "streak": 0, "description": "Reading a blend of fiction and non-fiction." },
+      { "id": 2, "name": "Exercise", "frequency": "weekly", "startDate": "2023-08-01", "streak": 3, "description": "Focus on cardiovascular exercises." }
+    ],
+    "log": [
+      { "id": 1, "date": "2023-08-06", "status": "completed", "habitId": 1, "profileId": 1 },
+      { "id": 2, "date": "2023-08-05", "status": "missed", "habitId": 2, "profileId": 1 }
+    ],
+    "profile": { "id": 1, "name": "Master Fernando" }
+}
