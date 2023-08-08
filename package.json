@@ -1,0 +1,14 @@
+{
+  "name": "habit-tracker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/FerJSsilva/habit-tracker.git",
+  "author": "Fernando JS Silva <ferjssilva@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "json-server --watch db.json --port 3001"
+  },
+  "dependencies": {
+    "json-server": "^0.17.3"
+  }
+}
