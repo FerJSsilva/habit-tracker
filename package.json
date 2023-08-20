@@ -6,7 +6,7 @@
   "author": "Fernando JS Silva <ferjssilva@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "mock-server": "json-server --watch mock-server/db.json"
+    "start": "json-server --watch mock-server/db.json"
   },
   "dependencies": {
     "json-server": "^0.17.3"
