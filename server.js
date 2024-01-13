@@ -1,9 +1,10 @@
-const db = require('./db.json');
+const db = require('./mock-server/db.json');
 const jsonServer = require('json-server');
+
 const server = jsonServer.create();
 const router = jsonServer.router(db);
 const middlewares = jsonServer.defaults();
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 8080;
 
 server.use(middlewares);
 server.use(router);
