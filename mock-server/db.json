@@ -1,17 +1,31 @@
 {
+  "categories": [
+    {
+      "id": 1,
+      "name": "Health",
+      "description": "Focus on physical and mental health."
+    },
+    {
+      "id": 2,
+      "name": "Finance",
+      "description": "Focus on financial health."
+    }
+  ],
   "habits": [
     {
       "id": 1,
+      "categoryId": 1,
       "name": "Read for 30 minutes",
       "description": "Reading a blend of fiction and non-fiction."
     },
     {
       "id": 2,
+      "categoryId": 1,
       "name": "Exercise",
       "description": "Focus on cardiovascular exercises."
     }
   ],
-  "person-habits": [
+  "user-habits": [
     {
       "id": 1,
       "habitId": 1,
