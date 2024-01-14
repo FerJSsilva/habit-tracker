@@ -1,28 +1,316 @@
 {
-  "categories": [
-    {
-      "id": 1,
-      "name": "Health",
-      "description": "Focus on physical and mental health."
-    },
-    {
-      "id": 2,
-      "name": "Finance",
-      "description": "Focus on financial health."
-    }
-  ],
   "habits": [
     {
       "id": 1,
-      "categoryId": 1,
-      "name": "Read for 30 minutes",
-      "description": "Reading a blend of fiction and non-fiction."
+      "category": "physical",
+      "name": "Caminhar",
+      "description": "Caminhar por um certo período de tempo."
     },
     {
       "id": 2,
-      "categoryId": 1,
-      "name": "Exercise",
-      "description": "Focus on cardiovascular exercises."
+      "category": "physical",
+      "name": "Yoga Matinal",
+      "description": "Praticar yoga por 20 minutos todas as manhãs."
+    },
+    {
+      "id": 3,
+      "category": "physical",
+      "name": "Treino HIIT",
+      "description": "Fazer um treino de alta intensidade por 15 minutos."
+    },
+    {
+      "id": 4,
+      "category": "physical",
+      "name": "Alongamento Noturno",
+      "description": "Fazer uma sessão de alongamento antes de dormir."
+    },
+    {
+      "id": 5,
+      "category": "physical",
+      "name": "Natação",
+      "description": "Nadar por 30 minutos três vezes por semana."
+    },
+    {
+      "id": 6,
+      "category": "physical",
+      "name": "Ciclismo",
+      "description": "Pedalar por uma hora durante o fim de semana."
+    },
+    {
+      "id": 7,
+      "category": "physical",
+      "name": "Musculação",
+      "description": "Ir à academia para uma sessão de musculação quatro vezes por semana."
+    },
+    {
+      "id": 8,
+      "category": "physical",
+      "name": "Corrida",
+      "description": "Correr por 30 minutos todas as manhãs."
+    },
+    {
+      "id": 9,
+      "category": "physical",
+      "name": "Pular Corda",
+      "description": "Pular corda por 15 minutos como aquecimento."
+    },
+    {
+      "id": 10,
+      "category": "physical",
+      "name": "Pilates",
+      "description": "Participar de uma aula de pilates de 45 minutos."
+    },
+    {
+      "id": 11,
+      "category": "physical",
+      "name": "Dança",
+      "description": "Praticar dança por uma hora, duas vezes por semana."
+    },
+    {
+      "id": 12,
+      "category": "intellectual",
+      "name": "Ler",
+      "description": "Ler um livro para desenvolver o intelecto."
+    },
+    {
+      "id": 13,
+      "category": "intellectual",
+      "name": "Estudo Diário de Idiomas",
+      "description": "Dedicar 30 minutos por dia para aprender um novo idioma."
+    },
+    {
+      "id": 14,
+      "category": "intellectual",
+      "name": "Resolver Quebra-Cabeças",
+      "description": "Resolver quebra-cabeças ou charadas para estimular o raciocínio lógico."
+    },
+    {
+      "id": 15,
+      "category": "intellectual",
+      "name": "Assistir Documentários",
+      "description": "Assistir a um documentário semanalmente para expandir os conhecimentos gerais."
+    },
+    {
+      "id": 16,
+      "category": "intellectual",
+      "name": "Escrever um Diário",
+      "description": "Escrever reflexões diárias para melhorar a escrita e a autoanálise."
+    },
+    {
+      "id": 17,
+      "category": "intellectual",
+      "name": "Prática de Xadrez",
+      "description": "Jogar xadrez para aprimorar as habilidades estratégicas."
+    },
+    {
+      "id": 18,
+      "category": "intellectual",
+      "name": "Estudo de Programação",
+      "description": "Estudar uma nova linguagem de programação ou conceito técnico por semana."
+    },
+    {
+      "id": 19,
+      "category": "intellectual",
+      "name": "Leitura de Artigos Científicos",
+      "description": "Ler e analisar um artigo científico por semana."
+    },
+    {
+      "id": 20,
+      "category": "intellectual",
+      "name": "Participação em Debates",
+      "description": "Participar de um debate ou grupo de discussão mensalmente."
+    },
+    {
+      "id": 21,
+      "category": "intellectual",
+      "name": "Curso Online",
+      "description": "Fazer um curso online para aprender uma nova habilidade ou aprofundar conhecimentos."
+    },
+    {
+      "id": 22,
+      "category": "intellectual",
+      "name": "Meditação Reflexiva",
+      "description": "Praticar meditação focada na reflexão e no desenvolvimento de ideias criativas."
+    },
+    {
+      "id": 23,
+      "category": "emotional",
+      "name": "Gratidão Diária",
+      "description": "Registrar três coisas pelas quais você é grato todos os dias."
+    },
+    {
+      "id": 24,
+      "category": "emotional",
+      "name": "Diário de Humor",
+      "description": "Anotar o seu humor e eventos do dia para entender melhor suas emoções."
+    },
+    {
+      "id": 25,
+      "category": "emotional",
+      "name": "Conexão com a Natureza",
+      "description": "Passar tempo na natureza para relaxar e se reconectar consigo mesmo."
+    },
+    {
+      "id": 26,
+      "category": "emotional",
+      "name": "Exercícios de Respiração",
+      "description": "Praticar exercícios de respiração profunda para reduzir o estresse."
+    },
+    {
+      "id": 27,
+      "category": "emotional",
+      "name": "Ouvir Música Relaxante",
+      "description": "Ouvir músicas relaxantes para acalmar a mente."
+    },
+    {
+      "id": 28,
+      "category": "emotional",
+      "name": "Socialização Consciente",
+      "description": "Dedicar um tempo para interagir com amigos e familiares de forma significativa."
+    },
+    {
+      "id": 29,
+      "category": "emotional",
+      "name": "Autoanálise",
+      "description": "Refletir sobre suas emoções e comportamentos para entender-se melhor."
+    },
+    {
+      "id": 30,
+      "category": "emotional",
+      "name": "Prática de Mindfulness",
+      "description": "Praticar mindfulness para estar presente e consciente."
+    },
+    {
+      "id": 31,
+      "category": "emotional",
+      "name": "Aconselhamento ou Terapia",
+      "description": "Participar de sessões de aconselhamento ou terapia para o bem-estar emocional."
+    },
+    {
+      "id": 32,
+      "category": "emotional",
+      "name": "Expressão Artística",
+      "description": "Usar a arte para expressar emoções e sentimentos."
+    },
+    {
+      "id": 33,
+      "category": "social",
+      "name": "Jantar com Amigos",
+      "description": "Organizar um jantar com amigos pelo menos uma vez por mês."
+    },
+    {
+      "id": 34,
+      "category": "social",
+      "name": "Participação em Grupos Locais",
+      "description": "Participar de grupos ou clubes locais para conhecer novas pessoas."
+    },
+    {
+      "id": 35,
+      "category": "social",
+      "name": "Voluntariado",
+      "description": "Engajar-se em atividades de voluntariado para ajudar a comunidade."
+    },
+    {
+      "id": 36,
+      "category": "social",
+      "name": "Eventos de Networking",
+      "description": "Ir a eventos de networking para fazer conexões profissionais."
+    },
+    {
+      "id": 37,
+      "category": "social",
+      "name": "Ligações Regulares",
+      "description": "Fazer ligações regulares para familiares e amigos distantes."
+    },
+    {
+      "id": 38,
+      "category": "social",
+      "name": "Atividades em Grupo",
+      "description": "Organizar ou participar de atividades em grupo, como esportes ou hobbies."
+    },
+    {
+      "id": 39,
+      "category": "social",
+      "name": "Apoio a um Amigo",
+      "description": "Oferecer apoio emocional regularmente a um amigo em necessidade."
+    },
+    {
+      "id": 40,
+      "category": "social",
+      "name": "Participação em Clubes de Livros",
+      "description": "Participar de um clube do livro para discussões em grupo."
+    },
+    {
+      "id": 41,
+      "category": "social",
+      "name": "Almoços com Colegas",
+      "description": "Fazer almoços semanais com colegas de trabalho para fortalecer laços."
+    },
+    {
+      "id": 42,
+      "category": "social",
+      "name": "Aulas em Grupo",
+      "description": "Participar de aulas em grupo, como dança ou culinária, para interação social."
+    },
+    {
+      "id": 43,
+      "category": "spiritual",
+      "name": "Meditação Diária",
+      "description": "Praticar meditação todos os dias para melhorar a concentração e a paz interior."
+    },
+    {
+      "id": 44,
+      "category": "spiritual",
+      "name": "Escrita Reflexiva",
+      "description": "Escrever um diário reflexivo para autoconhecimento e crescimento pessoal."
+    },
+    {
+      "id": 45,
+      "category": "spiritual",
+      "name": "Caminhadas na Natureza",
+      "description": "Fazer caminhadas regulares na natureza para se conectar com o ambiente."
+    },
+    {
+      "id": 46,
+      "category": "spiritual",
+      "name": "Yoga",
+      "description": "Praticar yoga para harmonia do corpo e da mente."
+    },
+    {
+      "id": 47,
+      "category": "spiritual",
+      "name": "Leitura Inspiradora",
+      "description": "Ler livros que inspirem crescimento pessoal e paz interior."
+    },
+    {
+      "id": 48,
+      "category": "spiritual",
+      "name": "Prática de Agradecimento",
+      "description": "Praticar a gratidão diariamente para manter uma perspectiva positiva."
+    },
+    {
+      "id": 49,
+      "category": "spiritual",
+      "name": "Jardinagem Contemplativa",
+      "description": "Praticar jardinagem como uma forma de meditação e conexão com a terra."
+    },
+    {
+      "id": 50,
+      "category": "spiritual",
+      "name": "Voluntariado Altruísta",
+      "description": "Engajar-se em trabalhos voluntários para contribuir com a comunidade."
+    },
+    {
+      "id": 51,
+      "category": "spiritual",
+      "name": "Mindfulness Diário",
+      "description": "Incorporar práticas de mindfulness no cotidiano para aumentar a consciência e a presença."
+    },
+    {
+      "id": 52,
+      "category": "spiritual",
+      "name": "Observação do Céu",
+      "description": "Dedicar tempo para observar o céu e refletir, promovendo a conexão com o universo."
     }
   ],
   "user-habits": [
