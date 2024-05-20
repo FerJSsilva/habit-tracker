@@ -1,0 +1,9 @@
+
+Habit Tracker:
+  Backend:
+    ☐ Connect to MongoDB
+    ✔ Change "logs" endpoint name to "achievements" @done(24-05-01 20:08)
+    ✔ user_habits need ssto contain the period of the habit @done(24-05-04 23:29)
+    ✔ Add "categories" to the backend @done(24-05-05 13:18)
+    ✔ Fix the backend to receive a bitmask for the days @done(24-05-05 14:50)
+    ✔ Fix the backend to receive the period quantity of the habits @done(24-05-05 14:50)
